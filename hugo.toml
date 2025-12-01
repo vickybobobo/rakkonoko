@@ -1,0 +1,4 @@
+baseURL = 'https://vickybobobo.github.io/rakkonoko/'
+languageCode = 'en-us'
+title = 'Rakkonoko'
+theme = "stack"
