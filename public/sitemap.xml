@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vickybobobo.github.io/rakkonoko/post/</loc>
+    <loc>http://localhost:1313/rakkonoko/post/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vickybobobo.github.io/rakkonoko/</loc>
+    <loc>http://localhost:1313/rakkonoko/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vickybobobo.github.io/rakkonoko/post/test/</loc>
+    <loc>http://localhost:1313/rakkonoko/post/test/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vickybobobo.github.io/rakkonoko/categories/</loc>
+    <loc>http://localhost:1313/rakkonoko/categories/</loc>
   </url><url>
-    <loc>https://vickybobobo.github.io/rakkonoko/tags/</loc>
+    <loc>http://localhost:1313/rakkonoko/tags/</loc>
   </url>
 </urlset>
