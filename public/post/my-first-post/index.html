@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><script src="/rakkonoko/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=rakkonoko/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="此处为内容">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="此处为描述">
 <title>我的第一篇博客</title>
 
 <link rel='canonical' href='http://localhost:1313/rakkonoko/post/my-first-post/'>
 
-<link rel="stylesheet" href="/rakkonoko/scss/style.min.a39fede2c754ed5f0cd169666d5851237ebb26b0fc995bacc1baf6d14d8419f7.css"><meta property='og:title' content="我的第一篇博客">
-<meta property='og:description' content="此处为内容">
+<link rel="stylesheet" href="/rakkonoko/scss/style.min.66ca701a3b74e5965c3a1194f16e4a20b439c4215b1282e76ed528e93f978965.css"><meta property='og:title' content="我的第一篇博客">
+<meta property='og:description' content="此处为描述">
 <meta property='og:url' content='http://localhost:1313/rakkonoko/post/my-first-post/'>
 <meta property='og:site_name' content='Rakkonoko'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-12-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-12-01T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="我的第一篇博客">
-<meta name="twitter:description" content="此处为内容">
+<meta name="twitter:description" content="此处为描述">
     </head>
     <body class="
     article-page
@@ -118,7 +118,7 @@
     
         
         <h3 class="article-subtitle">
-            此处为内容
+            此处为描述
         </h3>
         
     </div>
@@ -192,16 +192,46 @@
     
 
     <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2025 Rakkonoko
-    </section>
-    
-    <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.32.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
-    </section>
+  <section class="copyright">
+    &copy;  2026 Rakkonoko
+  </section>
+
+  
+  <section class="totalcount">
+     
+     
+      发表了2篇文章 · 总计2.67k字
+  </section>
+
+  
+  <section class="running-time">
+    本博客已稳定运行
+    <span id="runningdays" class="running-days"></span>
+  </section>
+
+  <section class="powerby">
+    Built with <a
+      href="https://gohugo.io/"
+      target="_blank"
+      rel="noopener"
+      >Hugo</a
+    >
+    <br />
+    Theme <b
+      ><a
+        href="https://github.com/CaiJimmy/hugo-theme-stack"
+        target="_blank"
+        rel="noopener"
+        data-version="3.32.0"
+        >Stack</a
+      ></b
+    > designed by <a
+      href="https://jimmycai.com"
+      target="_blank"
+      rel="noopener"
+      >Jimmy</a
+    >
+  </section>
 </footer>
 
 
@@ -289,7 +319,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/rakkonoko/ts/main.e75a8f57d76c6d98e69dadbd6ebdbb38f58425cc46c1f18dcab64935c7400e67.js" defer></script>
+            </script><script type="text/javascript" src="/rakkonoko/ts/main.f4f934901b3e33483748366027085323b317754036e98417e8b50d64874ea346.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -300,6 +330,22 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+
+<script>
+  let s1 = "2025-12-01"; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor(
+    (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + "天" + hours + "小时" + minutes + "分钟";
+  document.getElementById("runningdays").innerHTML = result;
 </script>
 
     </body>
